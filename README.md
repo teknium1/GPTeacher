@@ -6,3 +6,5 @@ Still cleaning the codegen instruct dataset, will be up when its cleaned.
 Each dataset is split into 5 seperate datasets, based on similarity scored cleaning. Simple dedupe only, and then range of <60% to <90% similarity cleaned sets for each.
 
 They are all made to be compliant with Alpaca's dataset format, i.e. each has an instruction, input, and output field, should make it easier to use the same fine tune script and process as alpaca has.
+
+Documentation on the toolformers section coming soon, we generated a dataset to use a set of predefined tools, including search, python, terminal/shell, wikipedia, wolfram, and others. More info on prompt format for inference soon..
