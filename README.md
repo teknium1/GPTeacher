@@ -6,7 +6,7 @@ The General-Instruct dataset is about 20,000 examples with just deduplication.
 
 Still cleaning the codegen instruct dataset, will be up when its cleaned.
 
-Each dataset is split into 5 seperate datasets, based on similarity scored cleaning. Simple dedupe only, and then range of <60% to <90% similarity cleaned sets for each.
+Each dataset is split into 5 separate datasets, based on similarity scored cleaning. Simple dedupe only, and then range of <60% to <90% similarity cleaned sets for each.
 
 They are all made to be compliant with Alpaca's dataset format, i.e. each has an instruction, input, and output field, should make it easier to use the same fine tune script and process as alpaca has.
 
