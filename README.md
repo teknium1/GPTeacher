@@ -6,10 +6,13 @@ They were all made mostly by adapting the alpaca prompt, the toolformer dataset 
 The General-Instruct used many of the same seed prompts as alpaca, but also had specific examples of things we didnt see much in with alpaca. Such as Chain of Thought Reasoning, Logic Puzzles, Wordplay, Role Playing (lightly), and was asked to include reasoning behind and thought steps where appropriate in example responses, among other things. 
 The General-Instruct dataset is about 20,000 examples with just deduplication.
 
-Still cleaning the codegen instruct dataset, will be up when its cleaned.
+~~Still cleaning the codegen instruct dataset, will be up when its cleaned.~~  
+Update: Code-Instruct Dataset has been uploaded! ~5350 Code Task Instructions in varying programming languages!
 
-Each dataset is split into 5 separate datasets, based on similarity scored cleaning. Simple dedupe only, and then range of <60% to <90% similarity cleaned sets for each.
+The Roleplay-Instruct dataset are tasks specifically to take on roles of characters, fictional and non-fictional, from various settings, personalities, etc.
+
+Each dataset is split into 5 separate datasets (except roleplay), based on similarity scored cleaning. Simple dedupe only, and then range of <60% to <90% similarity cleaned sets for each.
 
 They are all made to be compliant with Alpaca's dataset format, i.e. each has an instruction, input, and output field, should make it easier to use the same fine tune script and process as alpaca has.
 
-Documentation on the toolformers section coming soon, we generated a dataset to use a set of predefined tools, including search, python, terminal/shell, wikipedia, wolfram, and others. More info on prompt format for inference soon..
+Documentation on the toolformers section coming soon, we generated a dataset to use a set of predefined tools, including search, python, terminal/shell, wikipedia, wolfram, and others.
